@@ -1,0 +1,63 @@
+﻿<Window x:Class="akademiaProjekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:akademiaProjekt"
+        mc:Ignorable="d"
+        Title="Robert Dembiński" Height="400" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="13*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <ComboBox Grid.Row="0"
+                  Grid.Column="0"
+                  Name="shapeComboBox"
+                  Margin="5"
+                  Height="20"
+                  Width="120"
+                  HorizontalAlignment="Center"/>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <Label Content="A lub R:" Height="30" HorizontalAlignment="Right" />
+            <Label Content="B lub H:" Height="30" HorizontalAlignment="Right" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="2">
+            <TextBox Name="firstValueTextBox"
+                     Text="0"
+                     Margin="5"
+                     Height="20"
+                     Width="70"
+                     HorizontalAlignment="Center"/>
+            <TextBox Name="secondValueTextBox"
+                     Text="0"
+                     Margin="5"
+                     Height="20"
+                     Width="70"
+                     HorizontalAlignment="Center"/>
+            <Button Grid.Row="0"
+                    Grid.Column="1"
+                    Margin="5"
+                    Content="Dodaj" Click="Button_Click"/>
+        </StackPanel>
+
+        <ListView Name="shapesListView" Grid.Row="1" Grid.ColumnSpan="3">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Figura" DisplayMemberBinding="{Binding Name}" Width="100"/>
+                    <GridViewColumn Header="Pole (cm)" DisplayMemberBinding="{Binding Area}" Width="150"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        
+    </Grid>
+</Window>
