@@ -1,0 +1,14 @@
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\bin\Debug\akademiaProjekt.exe.config
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\bin\Debug\akademiaProjekt.exe
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\bin\Debug\akademiaProjekt.pdb
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\akademiaProjekt.csprojResolveAssemblyReference.cache
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\MainWindow.g.cs
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\App.g.cs
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\akademiaProjekt_MarkupCompile.cache
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\akademiaProjekt_MarkupCompile.lref
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\MainWindow.baml
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\akademiaProjekt.g.resources
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\akademiaProjekt.Properties.Resources.resources
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\akademiaProjekt.csproj.GenerateResource.Cache
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\akademiaProjekt.exe
+C:\Users\Czolg\Desktop\c#\akademiaProjekt\akademiaProjekt\obj\Debug\akademiaProjekt.pdb
